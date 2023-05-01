@@ -7,6 +7,6 @@ min_number=int(input("Введите низний диапазона: "))
 max_number=int(input("Введите верхний диапазон: "))
 result=[]
 for i in range(len(arry)):
-    if (min_number < arry[i] < max_number):
+    if (min_number <= arry[i] <= max_number):
         result.append(i)
 print(result)
